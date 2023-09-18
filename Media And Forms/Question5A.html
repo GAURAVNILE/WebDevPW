@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5A</title>
+</head>
+<body>
+   
+    <h1>Sign Up Here</h1>
+<form action="">
+    <label for="name">Name :</label>
+    <input type="text" placeholder="First Name" id="name" required minlength="3">
+
+    <br><br>
+    <label for="lastname">Last Name :</label>
+    <input type="text" placeholder="Last Name " id="lastname" required minlength="3">
+
+    <br><br>
+    <label for="mail">Email ID :</label>
+    <input type="email" placeholder="Email ID" id="mail"  required minlength="3">
+
+    <br><br>
+    <label for="password">Password :</label>
+    <input type="password" placeholder="Password" id="password" required maxlength="15">
+
+    <br><br>
+    <label for="cpassword">Confirm Password :</label>
+    <input type="password" placeholder="Confirm Password" id="cpassword" required>
+
+    <br><br>
+    <label for="age">Age :</label>
+    <input type="number" id="age" placeholder="Age" maxlength="3" max="150" min="1" required>
+
+    <br><br>
+    <label for="gender">Gender :</label>
+    <select name="gender" id="gender" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="">Trans</option>
+    </select>
+
+    <br><br>
+    <input type="checkbox" name="agree" id="agree" required>
+    <label for="agree">I Agree to terms and conditions</label>
+
+    <br><br>
+<button>Submit</button>
+</form>
+</body>
+</html>
