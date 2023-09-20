@@ -1,0 +1,17 @@
+Question 2.What are HTML Entities? List out 5 commonly used HTML entities.
+
+Answer :-
+1) &lt; - Less than (<):
+Represents the less-than symbol.
+
+2) &gt; - Greater than (>):
+Represents the greater-than symbol.
+
+3) &amp; - Ampersand (&):
+Represents the ampersand symbol.
+
+4) &quot; - Double quotation mark ("):
+Represents the double quotation mark.
+
+5) &apos; - Apostrophe ('):
+Represents the apostrophe or single quotation mark.

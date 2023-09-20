@@ -1,0 +1,18 @@
+Question 
+1.List out the features of HTML5
+
+Answer:-
+1) Semantic Elements:
+HTML5 includes new semantic elements like <header>, <footer>, <nav>, <article>, <section>, etc., which provide better structure and clarity to web page content.
+
+2) Improved Forms:
+New input types (e.g., email, url, tel) and attributes (e.g., required, pattern) for form elements allow for better validation and user experience.
+
+3) Audio and Video Support:
+HTML5 provides native support for embedding audio and video content using the <audio> and <video> elements, reducing the need for third-party plugins like Flash.
+
+4) Canvas and SVG:
+HTML5 includes the <canvas> element for drawing graphics and animations, and supports Scalable Vector Graphics (SVG) for creating vector-based graphics.
+
+5) Geolocation API:
+Allows web applications to access the user's geographical location, enabling location-based services.
