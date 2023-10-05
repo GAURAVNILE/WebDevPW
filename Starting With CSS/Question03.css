@@ -1,0 +1,39 @@
+.body2 {
+    background-color: aqua;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 600px;
+    border-radius: 10px;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(0,105,228,1) 100%);
+    
+
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+form{
+    padding-left: 50px;
+    padding-top: 40px;
+    text-decoration: dashed;
+    
+    
+}
+button{
+    background-color: rgb(249, 73, 73);
+    color: white;
+}
+h1{
+    color: white;
+    padding-left: 78px;
+    padding-top: px;
+}
