@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --primaryColor: #ff0000;
+            --secondaryColor: #00ff00;
+        }
+
+        button {
+            font-size: 20px;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        #primaryBtn {
+            background-color: var(--primaryColor);
+        }
+
+        #secondaryBtn {
+            background-color: var(--secondaryColor);
+        }
+    </style>
+</head>
+
+<body>
+    <button id="primaryBtn">Primary Button</button>
+    <button id="secondaryBtn">Secondary Button</button>
+</body>
+
+</html>
