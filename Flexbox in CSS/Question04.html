@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Pricing</title>
+    <style>
+        /* pricing section */
+        .custom-pricing-section {
+            min-height: 100vh;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #EFE8F8;
+            box-sizing: border-box;
+        }
+
+        /* card */
+        .custom-card {
+            width: 250px;
+            height: 350px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-card.dark {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .plan-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .plan-for {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .pricing {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .features img {
+            width: 16px;
+            height: 16px;
+        }
+
+        .subscribe-now-button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .subscribe-now-button {
+            padding: 10px 20px;
+            background-color: #0AB101;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .subscribe-now-button.dark-btn {
+            background-color: #FB2B79;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- pricing section -->
+    <section class="custom-pricing-section">
+        <!-- free plan card -->
+        <div class="custom-card">
+            <h2 class="plan-name">Basic Plan</h2>
+            <p class="plan-for">For personal use</p>
+            <h2 class="pricing">$5</h2>
+            <p class="features"><span><img src="light_tick.png" alt=""></span>1 User</p>
+            <p class="features"><span><img src="light_tick.png" alt=""></span>4 Webmail accounts</p>
+            <p class="features"><span><img src="light_tick.png" alt=""></span>Responsive Website</p>
+            <p class="features"><span><img src="light_tick.png" alt=""></span>Free SSL</p>
+            <div class="subscribe-now-button-container">
+                <button class="subscribe-now-button">Get Started</button>
+            </div>
+        </div>
+        <!-- basic plan card -->
+        <div class="custom-card dark">
+            <h2 class="plan-name">Premium Plan</h2>
+            <p class="plan-for">For small businesses</p>
+            <h2 class="pricing">$20</h2>
+            <p class="features"><span><img src="dark_tick.png" alt=""></span>10 Users</p>
+            <p class="features"><span><img src="dark_tick.png" alt=""></span>20 Webmail accounts</p>
+            <p class="features"><span><img src="dark_tick.png" alt=""></span>Responsive Website</p>
+            <p class="features"><span><img src="dark_tick.png" alt=""></span>Free SSL</p>
+            <div class="subscribe-now-button-container">
+                <button class="subscribe-now-button dark-btn">Get Started</button>
+            </div>
+        </div>
+        <!-- pro plan card -->
+        <div class="custom-card">
+            <h2 class="plan-name">Business Plan</h2>
+            <p class="plan-for">For large businesses</p>
+            <h2 class="pricing">$50</h2>
+            <p class="features"><span><img src="light_tick.png" alt=""></span>Unlimited Users</p>
+            <p class="features"><span><img src="light_tick.png" alt=""></span>Unlimited Webmail accounts</p>
+            <p class="features"><span><img src="light_tick.png" alt=""></span>Responsive Website</p>
+            <p class="features"><span><img src="light_tick.png" alt=""></span>Free SSL</p>
+            <div class="subscribe-now-button-container">
+                <button class="subscribe-now-button">Get Started</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

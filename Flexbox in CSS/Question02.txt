@@ -1,0 +1,19 @@
+Question 2 
+Answer :- 
+1.	justify-content:
+•	Role: This property determines how the flex items are distributed along the main axis of the flex container. It controls the horizontal alignment of items within the container.
+•	Values: Common values include flex-start (default, items are packed to the start of the container), flex-end (items packed to the end), center (items centered), space-between (items evenly distributed with no space at the start and end), and space-around (items evenly distributed with space at the start and end).
+2.	align-items:
+•	Role: This property controls how the flex items are aligned along the cross-axis of the flex container. It determines their vertical alignment within the container.
+•	Values: Common values include stretch (default, items are stretched to fill the container's cross-axis), flex-start (items aligned at the start of the cross-axis), flex-end (items aligned at the end), center (items centered), and baseline (items aligned at their baselines).
+3.	gap:
+•	Role: This property sets the gap or spacing between flex items in a flex container. It's also known as the gap between rows and columns in a grid context.
+•	Values: You can set a specific length or percentage for the gap, such as 1rem, 10%, or 2px. You can specify different values for row and column gaps using row-gap and column-gap properties.
+4.	flex-direction:
+•	Role: This property specifies the direction in which the flex items are placed within the flex container. It defines the main axis and cross axis.
+•	Values: You can set it to row (default, items are placed horizontally from left to right), row-reverse (items are placed horizontally from right to left), column (items are placed vertically from top to bottom), or column-reverse (items are placed vertically from bottom to top).
+5.	flex-wrap:
+•	Role: This property controls whether flex items are allowed to wrap onto multiple lines if they overflow the available space within the flex container.
+•	Values: You can set it to nowrap (default, items remain on a single line and may overflow), wrap (items wrap to a new line when needed), or wrap-reverse (items wrap in reverse order).
+These Flexbox properties work together to create flexible and responsive layouts, allowing you to control the alignment, distribution, and spacing of flex items within a flex container. Depending on the specific design requirements, you can adjust these properties to achieve the desired layout and appearance.
+
